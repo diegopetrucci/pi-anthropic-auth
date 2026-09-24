@@ -1,5 +1,5 @@
 {
-  "name": "@gotgenes/pi-anthropic-auth",
+  "name": "@diegopetrucci/pi-anthropic-auth",
   "version": "3.3.1",
   "description": "Pi extension package for Anthropic OAuth compatibility",
   "author": {
@@ -26,11 +26,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gotgenes/pi-anthropic-auth.git"
+    "url": "git+https://github.com/diegopetrucci/pi-anthropic-auth.git"
   },
-  "homepage": "https://github.com/gotgenes/pi-anthropic-auth#readme",
+  "homepage": "https://github.com/diegopetrucci/pi-anthropic-auth#readme",
   "bugs": {
-    "url": "https://github.com/gotgenes/pi-anthropic-auth/issues"
+    "url": "https://github.com/diegopetrucci/pi-anthropic-auth/issues"
   },
   "engines": {
     "node": ">=22"

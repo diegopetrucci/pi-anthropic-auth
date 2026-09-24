@@ -1,7 +1,7 @@
 # pi-anthropic-auth
 
-[![npm version](https://img.shields.io/npm/v/@gotgenes/pi-anthropic-auth?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@gotgenes/pi-anthropic-auth)
-[![CI](https://img.shields.io/github/actions/workflow/status/gotgenes/pi-anthropic-auth/ci.yml?style=flat&logo=github&label=CI)](https://github.com/gotgenes/pi-anthropic-auth/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@diegopetrucci/pi-anthropic-auth?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@diegopetrucci/pi-anthropic-auth)
+[![CI](https://img.shields.io/github/actions/workflow/status/diegopetrucci/pi-anthropic-auth/ci.yml?style=flat&logo=github&label=CI)](https://github.com/diegopetrucci/pi-anthropic-auth/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![pnpm](https://img.shields.io/badge/pnpm-%3E%3D10-F69220?style=flat&logo=pnpm&logoColor=white)](https://pnpm.io/)
@@ -30,13 +30,13 @@ Requires Pi 0.86.0 or newer.
 Pi 0.86.0 restructured its system prompt into XML-tagged sections, and this extension shapes that structure directly; the `2.x` line supports Pi 0.80.8 through 0.85.x.
 
 ```bash
-pi install npm:@gotgenes/pi-anthropic-auth
+pi install npm:@diegopetrucci/pi-anthropic-auth
 ```
 
 To try it without permanently installing:
 
 ```bash
-pi -e npm:@gotgenes/pi-anthropic-auth
+pi -e npm:@diegopetrucci/pi-anthropic-auth
 ```
 
 ## Usage
@@ -181,7 +181,7 @@ Nothing in this extension caused it or fixed it: the fix is entirely upstream, i
 
 ### Docker: extension missing after volume mount
 
-If you install the extension at image build time with `RUN pi install npm:@gotgenes/pi-anthropic-auth` and then mount a persistent volume over `~/.pi/agent` at runtime, Docker may mask the build-time install.
+If you install the extension at image build time with `RUN pi install npm:@diegopetrucci/pi-anthropic-auth` and then mount a persistent volume over `~/.pi/agent` at runtime, Docker may mask the build-time install.
 Docker seeds a named volume with the image directory only on its first creation.
 If the volume already exists from a previous image, the extension directory inside it may be empty or out of date.
 
