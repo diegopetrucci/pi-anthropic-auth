@@ -109,4 +109,4 @@ Prefer version-agnostic fixes that keep the current peer floor.
 
 Then call `ask_user` to ask which findings should become GitHub issues.
 Do not file anything before asking.
-When the user chooses to file, load the `github-voice` skill and write each issue in @gotgenes's voice, one issue per finding, with the evidence inline.
+When the user chooses to file, load the `github-voice` skill and write each issue in @diegopetrucci's voice, one issue per finding, with the evidence inline.

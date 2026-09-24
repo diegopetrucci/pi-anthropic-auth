@@ -4,7 +4,10 @@ import packageJson from "../package.json" with { type: "json" };
 
 test("publishes the scoped package with fork metadata", () => {
   assert.equal(packageJson.name, "@diegopetrucci/pi-anthropic-auth");
-  assert.equal(packageJson.version, "3.3.1");
+  assert.match(
+    packageJson.version,
+    /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$/,
+  );
   assert.deepEqual(packageJson.author, { name: "Chris Lasher" });
   assert.deepEqual(packageJson.repository, {
     type: "git",

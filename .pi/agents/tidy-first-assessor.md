@@ -18,7 +18,7 @@ Do NOT modify files, run auto-fixers, or commit anything.
 
 ## Repo shape
 
-This is a single pnpm package (`@gotgenes/pi-anthropic-auth`), not a monorepo.
+This is a single pnpm package (`@diegopetrucci/pi-anthropic-auth`), not a monorepo.
 Source lives in `src/` (`index.ts`, `host-transport.ts`, `oauth-transport.ts`, `request-shaping.ts`, `system-prompt-shaping.ts`, `debug.ts`, `diagnostics.ts`, `constants.ts`) and tests live in `test/` as `*.test.ts`.
 Commit scopes are optional here — a bare `refactor:` or `test:` prefix is the norm.
 

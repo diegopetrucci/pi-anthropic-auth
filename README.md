@@ -9,6 +9,8 @@
 
 A [Pi](https://pi.mariozechner.at/) extension that improves compatibility with Anthropic Claude Pro/Max OAuth (i.e., your Claude subscription) while preserving Pi's normal Anthropic behavior.
 
+Originally created by [Chris Lasher](https://github.com/gotgenes), this fork is maintained by [Diego Petrucci](https://github.com/diegopetrucci).
+
 ## What It Does
 
 Pi works great with Anthropic API keys out of the box.
