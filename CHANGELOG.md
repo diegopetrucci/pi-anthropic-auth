@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.3.2](https://github.com/diegopetrucci/pi-anthropic-auth/compare/v3.3.1...v3.3.2) (2026-09-24)
+
+
+### Bug Fixes
+
+* keep Pi's per-message effort on managed-effort models ([#1](https://github.com/diegopetrucci/pi-anthropic-auth/issues/1)) ([75394fc](https://github.com/diegopetrucci/pi-anthropic-auth/commit/75394fc6cefb8670d3fe5844624284bbd3d7546a))
+
+### Miscellaneous Chores
+
+* prepare scoped npm package ([1349312](https://github.com/diegopetrucci/pi-anthropic-auth/commit/1349312f7a943cc2f8fd3ae9e811da3a8b04fa6e))
+* prepare scoped npm package ([4a33f82](https://github.com/diegopetrucci/pi-anthropic-auth/commit/4a33f8273c5c7b76d44ad9421ef223c4f04f5455))
+
 ## [3.3.1](https://github.com/gotgenes/pi-anthropic-auth/compare/v3.3.0...v3.3.1) (2026-09-24)
 
 
