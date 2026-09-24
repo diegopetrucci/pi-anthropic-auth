@@ -30,7 +30,7 @@ In practice, that means preferring:
 
 | Project | Host app | Approach | Similarity to this repo |
 | --- | --- | --- | --- |
-| [`pi-anthropic-auth`](https://github.com/gotgenes/pi-anthropic-auth) | Pi | Thin built-in provider override plus payload shaping | Baseline |
+| [`pi-anthropic-auth`](https://github.com/diegopetrucci/pi-anthropic-auth) | Pi | Thin built-in provider override plus payload shaping | Baseline |
 | [`pi-anthropic-oauth`](https://github.com/leohenon/pi-anthropic-oauth) | Pi | Fuller provider replacement with custom `streamSimple` transport | Similar goal, heavier implementation |
 | [`opencode-anthropic-auth`](https://github.com/ex-machina-co/opencode-anthropic-auth/) | OpenCode | Anthropic OAuth compatibility plugin for OpenCode | Important source of compatibility lessons, but for a different host architecture |
 

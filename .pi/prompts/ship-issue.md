@@ -107,7 +107,7 @@ The comment should include:
 Then use `issue_close` with issue number `$1` and the summary as the comment.
 
 When `$1` is a third-party **PR** adopted via `/pr-review` (we re-implemented rather than merged), the close target is a PR, not an issue.
-Verify with `gh api repos/gotgenes/pi-anthropic-auth/issues/$1 --jq '.pull_request != null'`.
+Verify with `gh api repos/diegopetrucci/pi-anthropic-auth/issues/$1 --jq '.pull_request != null'`.
 Close it with `gh pr comment` then `gh pr close` — never merge — crediting the contributor by `@login`.
 An adopted PR and the issue it addresses are both close targets: shipping either one closes the other too — read the retro's PR Review stage for the counterpart number.
 Apply the `git rev-parse` rule above to every SHA in either comment; a multi-SHA credit list is where hand-extended short hashes slip in.

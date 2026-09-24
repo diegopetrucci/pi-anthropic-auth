@@ -33,7 +33,7 @@ Stop after recording the decision and handing off; do not start implementation h
 
 A fork PR's workflow runs sit at `action_required` until a maintainer approves them, so `statusCheckRollup` is usually **empty** — absent checks mean *not run*, never *passed*.
 Do not read `mergeable`/`mergeStateStatus` as evidence of a green build.
-Approve the run (`gh api -X POST repos/gotgenes/pi-anthropic-auth/actions/runs/<id>/approve`) or run the checks yourself per the Verify gate below.
+Approve the run (`gh api -X POST repos/diegopetrucci/pi-anthropic-auth/actions/runs/<id>/approve`) or run the checks yourself per the Verify gate below.
 
 ## Verify the defect (required gate — do this before evaluating the diff)
 
